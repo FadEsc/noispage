@@ -33,8 +33,17 @@ header img{
   display: flex;
   justify-content: center;
 }
+
 .imagen_principal{
-  margin-top: 70px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 3%;
+}
+.imagen_principal img{
+
 }
 .boton_informacion{
   display: flex;
