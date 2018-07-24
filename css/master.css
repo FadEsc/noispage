@@ -1,0 +1,78 @@
+/* font-family: 'Gaegu', cursive; */
+body{
+  margin: 0;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  height: 60px;
+}
+header a{
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-family: 'Gaegu', cursive;
+  font-size: 30px;
+  color: #fff;
+}
+header img{
+  height: 60px;
+}
+.menu_inicio ul{
+  display: flex;
+  align-items: center;
+}
+.menu_inicio li{
+
+  list-style: none;
+}
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+}
+.imagen_principal{
+  margin-top: 70px;
+}
+.boton_informacion{
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  border-radius: 10px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#959595+0,0d0d0d+46,010101+50,0a0a0a+53,4e4e4e+76,383838+87,1b1b1b+100;Black+Gloss+Pipe */
+  background: rgb(149,149,149); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(149,149,149,1) 0%, rgba(13,13,13,1) 46%, rgba(1,1,1,1) 50%, rgba(10,10,10,1) 53%, rgba(78,78,78,1) 76%, rgba(56,56,56,1) 87%, rgba(27,27,27,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=0 ); /* IE6-9 */
+}
+.boton_informacion a{
+  font-family: 'Gaegu', cursive;
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+}
+
+.contenedor_videos{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.video{
+  margin-top: 70px;
+}
+
+footer{
+  background-color: #000;
+  margin-top: 100px;
+}
+.redes{
+  display: flex;
+  justify-content: center;
+}
+.redes img{
+  width: 80px;
+  margin: 50px 10px 50px 10px;
+}
