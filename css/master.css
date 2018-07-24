@@ -7,7 +7,7 @@ header{
   justify-content: space-between;
   align-items: center;
   background-color: #000;
-  height: 60px;
+  height: auto;
 }
 header a{
   text-decoration: none;
@@ -23,6 +23,7 @@ header img{
 .menu_inicio ul{
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 .menu_inicio li{
 
